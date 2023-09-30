@@ -12,7 +12,7 @@ function clearDisplay() {
 
 function calculateResult() {
     if (displayValue === '') {
-        return; // Do nothing if displayValue is empty
+        return;
     }
 
     try {
