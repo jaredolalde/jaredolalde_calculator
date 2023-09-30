@@ -11,6 +11,10 @@ function clearDisplay() {
 }
 
 function calculateResult() {
+    if (displayValue === '') {
+        return; // Do nothing if displayValue is empty
+    }
+
     try {
         displayValue = eval(displayValue);
         document.getElementById('display').textContent = displayValue;
@@ -18,3 +22,4 @@ function calculateResult() {
         document.getElementById('display').textContent = 'Error';
     }
 }
+
