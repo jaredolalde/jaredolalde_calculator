@@ -35,14 +35,14 @@ button {
     font-size: 20px;
     padding: 10px;
     background-color: darkslategrey;
-    color: #fff;
+    color: ghostwhite;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: lightgrey;
 }
 button:nth-child(13) {
     background-color: red;
